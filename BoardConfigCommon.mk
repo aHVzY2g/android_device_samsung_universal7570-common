@@ -79,7 +79,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_ROOT_EXTRA_FOLDERS := efs cpefs
 
 # Vendor separation
-TARGET_COPY_OUT_VENDOR := vendor
+TARGET_COPY_OUT_VENDOR := system/vendor
 
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
