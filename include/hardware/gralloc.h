@@ -116,6 +116,8 @@ enum {
 
     /* buffer will be used with the HW video encoder */
     GRALLOC_USAGE_HW_VIDEO_ENCODER      = 0x00010000U,
+    /* buffer will be used as input to HW HEIC image encoder */
+    GRALLOC_USAGE_HW_IMAGE_ENCODER      = 0x08000000U,
     /* buffer will be written by the HW camera pipeline */
     GRALLOC_USAGE_HW_CAMERA_WRITE       = 0x00020000U,
     /* buffer will be read by the HW camera pipeline */
